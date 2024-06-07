@@ -1,0 +1,84 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7WmPvUzIFWML",
+        "outputId": "08f7d147-fcdb-4f16-9362-eb4fed83e253"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Comments scraped successfully and saved to youtube_comments IDMobile.xlsx\n"
+          ]
+        }
+      ],
+      "source": [
+        "from googleapiclient.discovery import build\n",
+        "import pandas as pd\n",
+        "\n",
+        "# Set up YouTube Data API\n",
+        "API_KEY = 'AIzaSyD_JSi-8SyhWi4EXTg3bKz5O3D16NDOL4Q'\n",
+        "youtube = build('youtube', 'v3', developerKey=API_KEY)\n",
+        "\n",
+        "# Function to retrieve comments for a video\n",
+        "def get_video_comments(video_id):\n",
+        "    comments = []\n",
+        "    next_page_token = None\n",
+        "\n",
+        "    while True:\n",
+        "        response = youtube.commentThreads().list(\n",
+        "            part='snippet',\n",
+        "            videoId=video_id,\n",
+        "            maxResults=100,\n",
+        "            pageToken=next_page_token).execute()\n",
+        "\n",
+        "        for item in response['items']:\n",
+        "            comment = item['snippet']['topLevelComment']['snippet']['textDisplay']\n",
+        "            comments.append(comment)\n",
+        "\n",
+        "        next_page_token = response.get('nextPageToken')\n",
+        "\n",
+        "        if not next_page_token:\n",
+        "            break\n",
+        "\n",
+        "    return comments\n",
+        "\n",
+        "# Specify the video ID for which you want to scrape comments\n",
+        "video_id = 'FZxZ_7OO4LA'\n",
+        "\n",
+        "# Scrape comments for the specified video\n",
+        "video_comments = get_video_comments(video_id)\n",
+        "\n",
+        "# Create a DataFrame to store the comments\n",
+        "comments_df = pd.DataFrame({'Comments': video_comments})\n",
+        "\n",
+        "# Export DataFrame to Excel\n",
+        "excel_file = 'youtube_comments IDMobile.xlsx'\n",
+        "comments_df.to_excel(excel_file, index=False)\n",
+        "\n",
+        "print(f'Comments scraped successfully and saved to {excel_file}')\n"
+      ]
+    }
+  ]
+}
