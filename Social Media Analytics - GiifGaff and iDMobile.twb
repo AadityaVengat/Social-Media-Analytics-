@@ -1,0 +1,2093 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0308.0326                               -->
+<workbook original-version='18.1' source-build='2024.1.1 (20241.24.0308.0326)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='SheetJS (iDMobile Ratings)' inline='true' name='federated.1kxm49t09nbbzi1fm3nu81wdxc8a' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='iDMobile Ratings' name='excel-direct.01m32nm11zyhws1dy67ol079d0mi'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/DELL/Downloads/iDMobile Ratings.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.01m32nm11zyhws1dy67ol079d0mi' name='SheetJS' table='[SheetJS$]' type='table'>
+          <columns gridOrigin='A1:E21:no:A1:E21:0' header='yes' outcome='2'>
+            <column datatype='string' name='Review' ordinal='0' />
+            <column datatype='string' name='Date' ordinal='1' />
+            <column datatype='string' name='Nationality' ordinal='2' />
+            <column datatype='integer' name='Rating' ordinal='3' />
+            <column datatype='string' name='Data' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.01m32nm11zyhws1dy67ol079d0mi' name='SheetJS' table='[SheetJS$]' type='table'>
+          <columns gridOrigin='A1:E21:no:A1:E21:0' header='yes' outcome='2'>
+            <column datatype='string' name='Review' ordinal='0' />
+            <column datatype='string' name='Date' ordinal='1' />
+            <column datatype='string' name='Nationality' ordinal='2' />
+            <column datatype='integer' name='Rating' ordinal='3' />
+            <column datatype='string' name='Data' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[SheetJS]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:E21:no:A1:E21:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Review</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Review]</local-name>
+            <parent-name>[SheetJS]</parent-name>
+            <remote-alias>Review</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SheetJS_36C9A333B85C4185B5C89E32AD5A14FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[SheetJS]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SheetJS_36C9A333B85C4185B5C89E32AD5A14FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nationality</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Nationality]</local-name>
+            <parent-name>[SheetJS]</parent-name>
+            <remote-alias>Nationality</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SheetJS_36C9A333B85C4185B5C89E32AD5A14FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rating</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rating]</local-name>
+            <parent-name>[SheetJS]</parent-name>
+            <remote-alias>Rating</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SheetJS_36C9A333B85C4185B5C89E32AD5A14FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Data]</local-name>
+            <parent-name>[SheetJS]</parent-name>
+            <remote-alias>Data</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SheetJS_36C9A333B85C4185B5C89E32AD5A14FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='SheetJS' datatype='table' name='[__tableau_internal_object_id__].[SheetJS_36C9A333B85C4185B5C89E32AD5A14FD]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='SheetJS' id='SheetJS_36C9A333B85C4185B5C89E32AD5A14FD'>
+            <properties context=''>
+              <relation connection='excel-direct.01m32nm11zyhws1dy67ol079d0mi' name='SheetJS' table='[SheetJS$]' type='table'>
+                <columns gridOrigin='A1:E21:no:A1:E21:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Review' ordinal='0' />
+                  <column datatype='string' name='Date' ordinal='1' />
+                  <column datatype='string' name='Nationality' ordinal='2' />
+                  <column datatype='integer' name='Rating' ordinal='3' />
+                  <column datatype='string' name='Data' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='SheetJS (Trustpilot)' inline='true' name='federated.0sg804t01r7xc610kdijt0o8opyt' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Trustpilot' name='excel-direct.0wvh8j10lw9fac1f7pb900s0239d'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/DELL/Downloads/Social Media Analytics - GiffGaff and iDMobile/Trustpilot Ratings/iDMobile Ratings.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0wvh8j10lw9fac1f7pb900s0239d' name='SheetJS' table='[SheetJS$]' type='table'>
+          <columns gridOrigin='A1:E21:no:A1:E21:0' header='yes' outcome='2'>
+            <column datatype='string' name='Review' ordinal='0' />
+            <column datatype='string' name='Date' ordinal='1' />
+            <column datatype='string' name='Nationality' ordinal='2' />
+            <column datatype='integer' name='Rating' ordinal='3' />
+            <column datatype='string' name='Data' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0wvh8j10lw9fac1f7pb900s0239d' name='SheetJS' table='[SheetJS$]' type='table'>
+          <columns gridOrigin='A1:E21:no:A1:E21:0' header='yes' outcome='2'>
+            <column datatype='string' name='Review' ordinal='0' />
+            <column datatype='string' name='Date' ordinal='1' />
+            <column datatype='string' name='Nationality' ordinal='2' />
+            <column datatype='integer' name='Rating' ordinal='3' />
+            <column datatype='string' name='Data' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[SheetJS]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:E21:no:A1:E21:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Review</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Review]</local-name>
+            <parent-name>[SheetJS]</parent-name>
+            <remote-alias>Review</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SheetJS_D57517395C794844B3C57CBD3D238613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[SheetJS]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SheetJS_D57517395C794844B3C57CBD3D238613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nationality</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Nationality]</local-name>
+            <parent-name>[SheetJS]</parent-name>
+            <remote-alias>Nationality</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SheetJS_D57517395C794844B3C57CBD3D238613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rating</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rating]</local-name>
+            <parent-name>[SheetJS]</parent-name>
+            <remote-alias>Rating</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SheetJS_D57517395C794844B3C57CBD3D238613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Data]</local-name>
+            <parent-name>[SheetJS]</parent-name>
+            <remote-alias>Data</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SheetJS_D57517395C794844B3C57CBD3D238613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='SheetJS' datatype='table' name='[__tableau_internal_object_id__].[SheetJS_D57517395C794844B3C57CBD3D238613]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='SheetJS' id='SheetJS_D57517395C794844B3C57CBD3D238613'>
+            <properties context=''>
+              <relation connection='excel-direct.0wvh8j10lw9fac1f7pb900s0239d' name='SheetJS' table='[SheetJS$]' type='table'>
+                <columns gridOrigin='A1:E21:no:A1:E21:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Review' ordinal='0' />
+                  <column datatype='string' name='Date' ordinal='1' />
+                  <column datatype='string' name='Nationality' ordinal='2' />
+                  <column datatype='integer' name='Rating' ordinal='3' />
+                  <column datatype='string' name='Data' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet1 (youtube_comments IDMobile)' inline='true' name='federated.0i46pqp04v1pff18bx2re1tfe9y1' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='youtube_comments IDMobile' name='excel-direct.1jrwxc404fzjj510bxvqi06whp9f'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/DELL/Downloads/Social Media Analytics - GiffGaff and iDMobile/Semantic Analysis/youtube_comments IDMobile.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1jrwxc404fzjj510bxvqi06whp9f' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:D14:no:A1:D14:0' header='yes' outcome='2'>
+            <column datatype='string' name='tweet_text' ordinal='0' />
+            <column datatype='real' name='F2' ordinal='1' />
+            <column datatype='string' name='Sentiment' ordinal='2' />
+            <column datatype='real' name='Score' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1jrwxc404fzjj510bxvqi06whp9f' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:D14:no:A1:D14:0' header='yes' outcome='2'>
+            <column datatype='string' name='tweet_text' ordinal='0' />
+            <column datatype='real' name='F2' ordinal='1' />
+            <column datatype='string' name='Sentiment' ordinal='2' />
+            <column datatype='real' name='Score' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:D14:no:A1:D14:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tweet_text</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[tweet_text]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>tweet_text</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F8C0C222EF6493BB22C13ED9EC0D5CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F8C0C222EF6493BB22C13ED9EC0D5CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sentiment</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sentiment]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Sentiment</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F8C0C222EF6493BB22C13ED9EC0D5CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Score]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Score</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F8C0C222EF6493BB22C13ED9EC0D5CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_7F8C0C222EF6493BB22C13ED9EC0D5CE]' role='measure' type='quantitative' />
+      <column caption='Tweet Text' datatype='string' name='[tweet_text]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_7F8C0C222EF6493BB22C13ED9EC0D5CE'>
+            <properties context=''>
+              <relation connection='excel-direct.1jrwxc404fzjj510bxvqi06whp9f' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:D14:no:A1:D14:0' header='yes' outcome='2'>
+                  <column datatype='string' name='tweet_text' ordinal='0' />
+                  <column datatype='real' name='F2' ordinal='1' />
+                  <column datatype='string' name='Sentiment' ordinal='2' />
+                  <column datatype='real' name='Score' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Trustpilot_Reviews__1697331241  (Facebook Shared Count GiffGaff)' inline='true' name='federated.02ssj870c0sy221aohnkb0j0o2ky' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Facebook Shared Count GiffGaff' name='excel-direct.0edzenz1c5bsha161e9us1lpwr85'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/DELL/Downloads/Social Media Analytics - GiffGaff and iDMobile/Facebook Comparison/Facebook Shared Count GiffGaff.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0edzenz1c5bsha161e9us1lpwr85' name='Trustpilot_Reviews__1697331241 ' table='[&apos;Trustpilot_Reviews__1697331241 $&apos;]' type='table'>
+          <columns gridOrigin='A1:I2:no:A1:I2:0' header='yes' outcome='6'>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='string' name='URLs' ordinal='1' />
+            <column datatype='integer' name='Facebook shares' ordinal='2' />
+            <column datatype='integer' name='Facebook comments' ordinal='3' />
+            <column datatype='integer' name='Facebook comments plugin' ordinal='4' />
+            <column datatype='integer' name='Facebook reactions' ordinal='5' />
+            <column datatype='integer' name='Facebook total' ordinal='6' />
+            <column datatype='integer' name='Pins' ordinal='7' />
+            <column datatype='integer' name='Total' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0edzenz1c5bsha161e9us1lpwr85' name='Trustpilot_Reviews__1697331241 ' table='[&apos;Trustpilot_Reviews__1697331241 $&apos;]' type='table'>
+          <columns gridOrigin='A1:I2:no:A1:I2:0' header='yes' outcome='6'>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='string' name='URLs' ordinal='1' />
+            <column datatype='integer' name='Facebook shares' ordinal='2' />
+            <column datatype='integer' name='Facebook comments' ordinal='3' />
+            <column datatype='integer' name='Facebook comments plugin' ordinal='4' />
+            <column datatype='integer' name='Facebook reactions' ordinal='5' />
+            <column datatype='integer' name='Facebook total' ordinal='6' />
+            <column datatype='integer' name='Pins' ordinal='7' />
+            <column datatype='integer' name='Total' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Trustpilot_Reviews__1697331241 ]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:I2:no:A1:I2:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[Trustpilot_Reviews__1697331241 ]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Trustpilot!Reviews!!1697331241 _2A6CE8D9E83A439090A15FFD3E1C4D7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>URLs</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[URLs]</local-name>
+            <parent-name>[Trustpilot_Reviews__1697331241 ]</parent-name>
+            <remote-alias>URLs</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Trustpilot!Reviews!!1697331241 _2A6CE8D9E83A439090A15FFD3E1C4D7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Facebook shares</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Facebook shares]</local-name>
+            <parent-name>[Trustpilot_Reviews__1697331241 ]</parent-name>
+            <remote-alias>Facebook shares</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Trustpilot!Reviews!!1697331241 _2A6CE8D9E83A439090A15FFD3E1C4D7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Facebook comments</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Facebook comments]</local-name>
+            <parent-name>[Trustpilot_Reviews__1697331241 ]</parent-name>
+            <remote-alias>Facebook comments</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Trustpilot!Reviews!!1697331241 _2A6CE8D9E83A439090A15FFD3E1C4D7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Facebook comments plugin</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Facebook comments plugin]</local-name>
+            <parent-name>[Trustpilot_Reviews__1697331241 ]</parent-name>
+            <remote-alias>Facebook comments plugin</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Trustpilot!Reviews!!1697331241 _2A6CE8D9E83A439090A15FFD3E1C4D7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Facebook reactions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Facebook reactions]</local-name>
+            <parent-name>[Trustpilot_Reviews__1697331241 ]</parent-name>
+            <remote-alias>Facebook reactions</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Trustpilot!Reviews!!1697331241 _2A6CE8D9E83A439090A15FFD3E1C4D7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Facebook total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Facebook total]</local-name>
+            <parent-name>[Trustpilot_Reviews__1697331241 ]</parent-name>
+            <remote-alias>Facebook total</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Trustpilot!Reviews!!1697331241 _2A6CE8D9E83A439090A15FFD3E1C4D7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pins</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pins]</local-name>
+            <parent-name>[Trustpilot_Reviews__1697331241 ]</parent-name>
+            <remote-alias>Pins</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Trustpilot!Reviews!!1697331241 _2A6CE8D9E83A439090A15FFD3E1C4D7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total]</local-name>
+            <parent-name>[Trustpilot_Reviews__1697331241 ]</parent-name>
+            <remote-alias>Total</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Trustpilot!Reviews!!1697331241 _2A6CE8D9E83A439090A15FFD3E1C4D7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='UR Ls' datatype='string' name='[URLs]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Trustpilot_Reviews__1697331241 ' datatype='table' name='[__tableau_internal_object_id__].[Trustpilot!Reviews!!1697331241 _2A6CE8D9E83A439090A15FFD3E1C4D7F]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Trustpilot_Reviews__1697331241 ' id='Trustpilot!Reviews!!1697331241 _2A6CE8D9E83A439090A15FFD3E1C4D7F'>
+            <properties context=''>
+              <relation connection='excel-direct.0edzenz1c5bsha161e9us1lpwr85' name='Trustpilot_Reviews__1697331241 ' table='[&apos;Trustpilot_Reviews__1697331241 $&apos;]' type='table'>
+                <columns gridOrigin='A1:I2:no:A1:I2:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Name' ordinal='0' />
+                  <column datatype='string' name='URLs' ordinal='1' />
+                  <column datatype='integer' name='Facebook shares' ordinal='2' />
+                  <column datatype='integer' name='Facebook comments' ordinal='3' />
+                  <column datatype='integer' name='Facebook comments plugin' ordinal='4' />
+                  <column datatype='integer' name='Facebook reactions' ordinal='5' />
+                  <column datatype='integer' name='Facebook total' ordinal='6' />
+                  <column datatype='integer' name='Pins' ordinal='7' />
+                  <column datatype='integer' name='Total' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Trustpilot_Reviews__1697331241 (Facebook Shared Count iDMobile)' inline='true' name='federated.11ktkvb10692b5150zjh40bxstmr' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Facebook Shared Count iDMobile' name='excel-direct.0uamo8j0pga5qw14sh2gc1dl31xy'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/DELL/Downloads/Social Media Analytics - GiffGaff and iDMobile/Facebook Comparison/Facebook Shared Count iDMobile.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0uamo8j0pga5qw14sh2gc1dl31xy' name='Trustpilot_Reviews__1697331241' table='[Trustpilot_Reviews__1697331241$]' type='table'>
+          <columns gridOrigin='A1:I2:no:A1:I2:0' header='yes' outcome='6'>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='string' name='URLs' ordinal='1' />
+            <column datatype='integer' name='Facebook shares' ordinal='2' />
+            <column datatype='integer' name='Facebook comments' ordinal='3' />
+            <column datatype='integer' name='Facebook comments plugin' ordinal='4' />
+            <column datatype='integer' name='Facebook reactions' ordinal='5' />
+            <column datatype='integer' name='Facebook total' ordinal='6' />
+            <column datatype='integer' name='Pins' ordinal='7' />
+            <column datatype='integer' name='Total' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0uamo8j0pga5qw14sh2gc1dl31xy' name='Trustpilot_Reviews__1697331241' table='[Trustpilot_Reviews__1697331241$]' type='table'>
+          <columns gridOrigin='A1:I2:no:A1:I2:0' header='yes' outcome='6'>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='string' name='URLs' ordinal='1' />
+            <column datatype='integer' name='Facebook shares' ordinal='2' />
+            <column datatype='integer' name='Facebook comments' ordinal='3' />
+            <column datatype='integer' name='Facebook comments plugin' ordinal='4' />
+            <column datatype='integer' name='Facebook reactions' ordinal='5' />
+            <column datatype='integer' name='Facebook total' ordinal='6' />
+            <column datatype='integer' name='Pins' ordinal='7' />
+            <column datatype='integer' name='Total' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Trustpilot_Reviews__1697331241]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:I2:no:A1:I2:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[Trustpilot_Reviews__1697331241]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Trustpilot!Reviews!!1697331241_B51B6CC9A8624A34A6AC467B2DEE6983]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>URLs</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[URLs]</local-name>
+            <parent-name>[Trustpilot_Reviews__1697331241]</parent-name>
+            <remote-alias>URLs</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Trustpilot!Reviews!!1697331241_B51B6CC9A8624A34A6AC467B2DEE6983]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Facebook shares</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Facebook shares]</local-name>
+            <parent-name>[Trustpilot_Reviews__1697331241]</parent-name>
+            <remote-alias>Facebook shares</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Trustpilot!Reviews!!1697331241_B51B6CC9A8624A34A6AC467B2DEE6983]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Facebook comments</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Facebook comments]</local-name>
+            <parent-name>[Trustpilot_Reviews__1697331241]</parent-name>
+            <remote-alias>Facebook comments</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Trustpilot!Reviews!!1697331241_B51B6CC9A8624A34A6AC467B2DEE6983]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Facebook comments plugin</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Facebook comments plugin]</local-name>
+            <parent-name>[Trustpilot_Reviews__1697331241]</parent-name>
+            <remote-alias>Facebook comments plugin</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Trustpilot!Reviews!!1697331241_B51B6CC9A8624A34A6AC467B2DEE6983]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Facebook reactions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Facebook reactions]</local-name>
+            <parent-name>[Trustpilot_Reviews__1697331241]</parent-name>
+            <remote-alias>Facebook reactions</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Trustpilot!Reviews!!1697331241_B51B6CC9A8624A34A6AC467B2DEE6983]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Facebook total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Facebook total]</local-name>
+            <parent-name>[Trustpilot_Reviews__1697331241]</parent-name>
+            <remote-alias>Facebook total</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Trustpilot!Reviews!!1697331241_B51B6CC9A8624A34A6AC467B2DEE6983]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pins</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pins]</local-name>
+            <parent-name>[Trustpilot_Reviews__1697331241]</parent-name>
+            <remote-alias>Pins</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Trustpilot!Reviews!!1697331241_B51B6CC9A8624A34A6AC467B2DEE6983]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total]</local-name>
+            <parent-name>[Trustpilot_Reviews__1697331241]</parent-name>
+            <remote-alias>Total</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Trustpilot!Reviews!!1697331241_B51B6CC9A8624A34A6AC467B2DEE6983]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='UR Ls' datatype='string' name='[URLs]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Trustpilot_Reviews__1697331241' datatype='table' name='[__tableau_internal_object_id__].[Trustpilot!Reviews!!1697331241_B51B6CC9A8624A34A6AC467B2DEE6983]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Trustpilot_Reviews__1697331241' id='Trustpilot!Reviews!!1697331241_B51B6CC9A8624A34A6AC467B2DEE6983'>
+            <properties context=''>
+              <relation connection='excel-direct.0uamo8j0pga5qw14sh2gc1dl31xy' name='Trustpilot_Reviews__1697331241' table='[Trustpilot_Reviews__1697331241$]' type='table'>
+                <columns gridOrigin='A1:I2:no:A1:I2:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Name' ordinal='0' />
+                  <column datatype='string' name='URLs' ordinal='1' />
+                  <column datatype='integer' name='Facebook shares' ordinal='2' />
+                  <column datatype='integer' name='Facebook comments' ordinal='3' />
+                  <column datatype='integer' name='Facebook comments plugin' ordinal='4' />
+                  <column datatype='integer' name='Facebook reactions' ordinal='5' />
+                  <column datatype='integer' name='Facebook total' ordinal='6' />
+                  <column datatype='integer' name='Pins' ordinal='7' />
+                  <column datatype='integer' name='Total' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet1 (youtube_comments GiffGaff)' inline='true' name='federated.1qv3bx10s4ayok19v7p2g164lxc7' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='youtube_comments GiffGaff' name='excel-direct.0n6xt3v0ar9pkg1baqamm1bu7w5f'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/DELL/Downloads/Social Media Analytics - GiffGaff and iDMobile/Semantic Analysis/youtube_comments GiffGaff.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0n6xt3v0ar9pkg1baqamm1bu7w5f' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:D45:no:A1:D45:0' header='yes' outcome='6'>
+            <column datatype='string' name='tweet_text' ordinal='0' />
+            <column datatype='real' name='F2' ordinal='1' />
+            <column datatype='string' name='Sentiment' ordinal='2' />
+            <column datatype='real' name='Score' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0n6xt3v0ar9pkg1baqamm1bu7w5f' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:D45:no:A1:D45:0' header='yes' outcome='6'>
+            <column datatype='string' name='tweet_text' ordinal='0' />
+            <column datatype='real' name='F2' ordinal='1' />
+            <column datatype='string' name='Sentiment' ordinal='2' />
+            <column datatype='real' name='Score' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:D45:no:A1:D45:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tweet_text</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[tweet_text]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>tweet_text</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_C08BF48A8008439B8C684281BC757314]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_C08BF48A8008439B8C684281BC757314]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sentiment</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sentiment]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Sentiment</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_C08BF48A8008439B8C684281BC757314]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Score]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Score</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_C08BF48A8008439B8C684281BC757314]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_C08BF48A8008439B8C684281BC757314]' role='measure' type='quantitative' />
+      <column caption='Tweet Text' datatype='string' name='[tweet_text]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_C08BF48A8008439B8C684281BC757314'>
+            <properties context=''>
+              <relation connection='excel-direct.0n6xt3v0ar9pkg1baqamm1bu7w5f' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:D45:no:A1:D45:0' header='yes' outcome='6'>
+                  <column datatype='string' name='tweet_text' ordinal='0' />
+                  <column datatype='real' name='F2' ordinal='1' />
+                  <column datatype='string' name='Sentiment' ordinal='2' />
+                  <column datatype='real' name='Score' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Facebook Statistics of GiffGaff'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Trustpilot_Reviews__1697331241  (Facebook Shared Count GiffGaff)' name='federated.02ssj870c0sy221aohnkb0j0o2ky' />
+          </datasources>
+          <datasource-dependencies datasource='federated.02ssj870c0sy221aohnkb0j0o2ky'>
+            <column datatype='integer' name='[Facebook comments]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Facebook reactions]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Facebook shares]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Facebook comments]' derivation='Sum' name='[sum:Facebook comments:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Facebook reactions]' derivation='Sum' name='[sum:Facebook reactions:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Facebook shares]' derivation='Sum' name='[sum:Facebook shares:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.02ssj870c0sy221aohnkb0j0o2ky].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02ssj870c0sy221aohnkb0j0o2ky].[sum:Facebook comments:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02ssj870c0sy221aohnkb0j0o2ky].[sum:Facebook reactions:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02ssj870c0sy221aohnkb0j0o2ky].[sum:Facebook shares:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.02ssj870c0sy221aohnkb0j0o2ky].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.02ssj870c0sy221aohnkb0j0o2ky].[:Measure Names]' value='153' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.02ssj870c0sy221aohnkb0j0o2ky].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.02ssj870c0sy221aohnkb0j0o2ky].[Multiple Values]</rows>
+        <cols>([federated.02ssj870c0sy221aohnkb0j0o2ky].[none:Name:nk] / [federated.02ssj870c0sy221aohnkb0j0o2ky].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{46F0901B-5E57-4452-B6DE-C8009A43A2EF}' />
+    </worksheet>
+    <worksheet name='Facebook Statistics of iDMobile'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Trustpilot_Reviews__1697331241 (Facebook Shared Count iDMobile)' name='federated.11ktkvb10692b5150zjh40bxstmr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.11ktkvb10692b5150zjh40bxstmr'>
+            <column datatype='integer' name='[Facebook comments]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Facebook reactions]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Facebook shares]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Facebook comments]' derivation='Sum' name='[sum:Facebook comments:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Facebook reactions]' derivation='Sum' name='[sum:Facebook reactions:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Facebook shares]' derivation='Sum' name='[sum:Facebook shares:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.11ktkvb10692b5150zjh40bxstmr].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.11ktkvb10692b5150zjh40bxstmr].[sum:Facebook comments:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.11ktkvb10692b5150zjh40bxstmr].[sum:Facebook reactions:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.11ktkvb10692b5150zjh40bxstmr].[sum:Facebook shares:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.11ktkvb10692b5150zjh40bxstmr].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.11ktkvb10692b5150zjh40bxstmr].[:Measure Names]' value='165' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.11ktkvb10692b5150zjh40bxstmr].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.11ktkvb10692b5150zjh40bxstmr].[Multiple Values]</rows>
+        <cols>([federated.11ktkvb10692b5150zjh40bxstmr].[none:Name:nk] / [federated.11ktkvb10692b5150zjh40bxstmr].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{2CEAFB1D-F656-4069-83DC-E0BE99CBF9F9}' />
+    </worksheet>
+    <worksheet name='Ratings of GiffGaff '>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SheetJS (Trustpilot)' name='federated.0sg804t01r7xc610kdijt0o8opyt' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0sg804t01r7xc610kdijt0o8opyt'>
+            <column datatype='string' name='[Data]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Rating]' role='measure' type='quantitative' />
+            <column-instance column='[Data]' derivation='None' name='[none:Data:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Rating]' derivation='Sum' name='[sum:Rating:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0sg804t01r7xc610kdijt0o8opyt].[none:Data:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0sg804t01r7xc610kdijt0o8opyt].[sum:Rating:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0sg804t01r7xc610kdijt0o8opyt].[none:Data:nk]' value='71' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#d3b348' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0sg804t01r7xc610kdijt0o8opyt].[sum:Rating:qk]</rows>
+        <cols>[federated.0sg804t01r7xc610kdijt0o8opyt].[none:Data:nk]</cols>
+      </table>
+      <simple-id uuid='{BC567185-7264-49C2-AE2E-1BB55637F206}' />
+    </worksheet>
+    <worksheet name='Ratings of iDMobile'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SheetJS (Trustpilot)' name='federated.0sg804t01r7xc610kdijt0o8opyt' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0sg804t01r7xc610kdijt0o8opyt'>
+            <column datatype='string' name='[Data]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Rating]' role='measure' type='quantitative' />
+            <column-instance column='[Data]' derivation='None' name='[none:Data:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Rating]' derivation='Sum' name='[sum:Rating:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#72b966' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0sg804t01r7xc610kdijt0o8opyt].[sum:Rating:qk]</rows>
+        <cols>[federated.0sg804t01r7xc610kdijt0o8opyt].[none:Data:nk]</cols>
+      </table>
+      <simple-id uuid='{213493AC-E415-4640-BBCC-2C903960C943}' />
+    </worksheet>
+    <worksheet name='Semantic Analysis Youtube Comments GiffGaff'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (youtube_comments GiffGaff)' name='federated.1qv3bx10s4ayok19v7p2g164lxc7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1qv3bx10s4ayok19v7p2g164lxc7'>
+            <column datatype='real' name='[Score]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Sentiment]' role='dimension' type='nominal' />
+            <column-instance column='[Sentiment]' derivation='None' name='[none:Sentiment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Score]' derivation='Sum' name='[sum:Score:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1qv3bx10s4ayok19v7p2g164lxc7].[none:Sentiment:nk]' value='91' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1qv3bx10s4ayok19v7p2g164lxc7].[none:Sentiment:nk]' />
+              <lod column='[federated.1qv3bx10s4ayok19v7p2g164lxc7].[sum:Score:qk]' />
+            </encodings>
+            <dropline drop-when='selected' haslabel='false' x-axis='false' y-axis='true' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1qv3bx10s4ayok19v7p2g164lxc7].[sum:Score:qk]</rows>
+        <cols>[federated.1qv3bx10s4ayok19v7p2g164lxc7].[none:Sentiment:nk]</cols>
+      </table>
+      <simple-id uuid='{0C8DAB88-7E37-42F7-B48C-319CE88A8FDA}' />
+    </worksheet>
+    <worksheet name='Semantic Analysis of Youtube Comments - ID Mobile'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (youtube_comments IDMobile)' name='federated.0i46pqp04v1pff18bx2re1tfe9y1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0i46pqp04v1pff18bx2re1tfe9y1'>
+            <column datatype='real' name='[Score]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Sentiment]' role='dimension' type='nominal' />
+            <column-instance column='[Sentiment]' derivation='None' name='[none:Sentiment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Score]' derivation='Sum' name='[sum:Score:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0i46pqp04v1pff18bx2re1tfe9y1].[none:Sentiment:nk]' value='95' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0i46pqp04v1pff18bx2re1tfe9y1].[none:Sentiment:nk]' />
+              <lod column='[federated.0i46pqp04v1pff18bx2re1tfe9y1].[sum:Score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0i46pqp04v1pff18bx2re1tfe9y1].[sum:Score:qk]</rows>
+        <cols>[federated.0i46pqp04v1pff18bx2re1tfe9y1].[none:Sentiment:nk]</cols>
+      </table>
+      <simple-id uuid='{ED88E1D4-7099-4FE2-B0F9-A76161249B20}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='167'>
+    <window class='worksheet' maximized='true' name='Semantic Analysis Youtube Comments GiffGaff'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1qv3bx10s4ayok19v7p2g164lxc7].[none:Sentiment:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1qv3bx10s4ayok19v7p2g164lxc7].[none:Sentiment:nk]</field>
+            <field>[federated.1qv3bx10s4ayok19v7p2g164lxc7].[none:tweet_text:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FAFF55F3-D886-4A1D-90D5-B0448818E4A2}' />
+    </window>
+    <window class='worksheet' name='Semantic Analysis of Youtube Comments - ID Mobile'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0i46pqp04v1pff18bx2re1tfe9y1].[none:Sentiment:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0i46pqp04v1pff18bx2re1tfe9y1].[none:Sentiment:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C886A7B2-76DD-4B19-A57F-66232BA1D54A}' />
+    </window>
+    <window class='worksheet' name='Facebook Statistics of GiffGaff'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.02ssj870c0sy221aohnkb0j0o2ky].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.02ssj870c0sy221aohnkb0j0o2ky].[:Measure Names]</field>
+            <field>[federated.02ssj870c0sy221aohnkb0j0o2ky].[none:Name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8140372C-6B2B-4D68-B8C3-C439DB0A8650}' />
+    </window>
+    <window class='worksheet' name='Facebook Statistics of iDMobile'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.11ktkvb10692b5150zjh40bxstmr].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.11ktkvb10692b5150zjh40bxstmr].[:Measure Names]</field>
+            <field>[federated.11ktkvb10692b5150zjh40bxstmr].[none:Name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6B7021AF-8BC3-4864-8C30-43F293A5F7FD}' />
+    </window>
+    <window class='worksheet' name='Ratings of GiffGaff '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0sg804t01r7xc610kdijt0o8opyt].[none:Data:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E7D58240-D89C-4E7F-B1D0-5D3EF08E71EB}' />
+    </window>
+    <window class='worksheet' name='Ratings of iDMobile'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0sg804t01r7xc610kdijt0o8opyt].[none:Data:nk]</field>
+            <field>[federated.0sg804t01r7xc610kdijt0o8opyt].[none:Testo:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7D4CD3F5-A411-4FAC-B52E-2F9A4F548538}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Facebook Statistics of GiffGaff' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Facebook Statistics of iDMobile' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Ratings of GiffGaff ' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Ratings of iDMobile' width='192'>
+      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
+      CQDR0f4/itJL/LcHsrcAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Semantic Analysis Youtube Comments GiffGaff' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Semantic Analysis of Youtube Comments - ID Mobile' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
